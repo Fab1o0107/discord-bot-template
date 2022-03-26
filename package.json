@@ -1,0 +1,69 @@
+{
+    "name": "discord-bot-template",
+    "version": "2.0.0-dev",
+    "description": "Template repository for Discord.js with typescript.",
+    "main": "dist/main.js",
+    "private": true,
+    "scripts": {
+        "build": "npm run lint && npm run compile",
+        "compile": "tsc --build tsconfig.json",
+        "lint": "eslint . --ignore-path .gitignore --ext .ts",
+        "lint:fix": "eslint . --ignore-path .gitignore --ext .ts --fix",
+        "start": "cross-env NODE_ENV=production node dist/main",
+        "start:dev": "cross-env NODE_ENV=development ts-node src/main"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Fab1o0107/discord-bot-template.git"
+    },
+    "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Discord",
+        "Discord Bot",
+        "Discord Bots"
+    ],
+    "author": "Fab1o0107 <contact@fab1o.xyz>",
+    "license": "AGPL-3.0",
+    "bugs": {
+        "url": "https://github.com/Fab1o0107/discord-bot-template/issues"
+    },
+    "homepage": "https://github.com/Fab1o0107/discord-bot-template#readme",
+    "eslintConfig": {
+        "extends": "@fab1o0107/eslint-config/typescript",
+        "ignorePatterns": "dist/*",
+        "parserOptions": {
+            "project": "./tsconfig.json"
+        }
+    },
+    "engines": {
+        "node": ">=16.6.0 <17.x",
+        "npm": ">=7.x"
+    },
+    "devDependencies": {
+        "@fab1o0107/eslint-config": "github:Fab1o0107/eslint-config#stable",
+        "@types/node": "^17.0.23",
+        "@types/node-fetch": "^2.6.1",
+        "@typescript-eslint/eslint-plugin": "^5.16.0",
+        "@typescript-eslint/parser": "^5.16.0",
+        "cross-env": "^7.0.3",
+        "eslint": "^8.5.0",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.3"
+    },
+    "optionalDependencies": {
+        "bufferutil": "^4.0.6",
+        "erlpack": "github:discord/erlpack",
+        "utf-8-validate": "^5.0.9",
+        "zlib-sync": "^0.1.7"
+    },
+    "dependencies": {
+        "date-fns": "^2.28.0",
+        "discord.js": "^13.6.0",
+        "dotenv": "^16.0.0",
+        "node-fetch": "^2.6.7",
+        "pretty-ms": "^7.0.1",
+        "tslib": "^2.3.1",
+        "winston": "^3.6.0"
+    }
+}

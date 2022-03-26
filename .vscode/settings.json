@@ -1,0 +1,18 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "eslint.packageManager": "npm",
+    "npm.packageManager": "npm",
+    "files.eol": "\n",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 11,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.ignoreRebaseWarning": true,
+    "git.enableSmartCommit": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.exclude": {
+        "node_modules/**": true,
+        "dist/**": true
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "mikestead.dotenv",
+        "usernamehw.errorlens",
+        "mkxml.vscode-filesize",
+        "xabikos.javascriptsnippets",
+        "eg2.vscode-npm-script",
+        "aaron-bond.better-comments"
+    ]
+}
