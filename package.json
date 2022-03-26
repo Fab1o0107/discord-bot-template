@@ -61,7 +61,7 @@
         "date-fns": "^2.28.0",
         "discord.js": "^13.6.0",
         "dotenv": "^16.0.0",
-        "node-fetch": "^2.6.7",
+        "node-fetch": "^3.2.3",
         "pretty-ms": "^7.0.1",
         "tslib": "^2.3.1",
         "winston": "^3.6.0"
