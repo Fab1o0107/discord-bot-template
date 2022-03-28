@@ -1,6 +1,6 @@
 {
     "name": "discord-bot-template",
-    "version": "2.0.0-dev",
+    "version": "2.0.0",
     "description": "Template repository for Discord.js with typescript.",
     "main": "dist/main.js",
     "private": true,
