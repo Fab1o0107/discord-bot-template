@@ -43,7 +43,6 @@
     "devDependencies": {
         "@fab1o0107/eslint-config": "github:Fab1o0107/eslint-config#stable",
         "@types/node": "^17.0.23",
-        "@types/node-fetch": "^2.6.1",
         "@typescript-eslint/eslint-plugin": "^5.16.0",
         "@typescript-eslint/parser": "^5.16.0",
         "cross-env": "^7.0.3",
